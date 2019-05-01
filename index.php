@@ -7,16 +7,16 @@
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700|Inconsolata:400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/animate.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/owl.carousel.min.css">
 
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/fonts/flaticon/font/flaticon.css">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/style.css">
   </head>
   <body>
     
@@ -48,7 +48,7 @@
           <div class="row pt-5">
             <div class="col-12 text-center">
               <a class="absolute-toggle d-block d-md-none" data-toggle="collapse" href="#navbarMenu" role="button" aria-expanded="false" aria-controls="navbarMenu"><span class="burger-lines"></span></a>
-              <h1 class="site-logo"><a href="index.html">Wordify</a></h1>
+              <h1 class="site-logo"><a href="<?php bloginfo('template_directory');?>/index.php">Wordify</a></h1>
             </div>
           </div>
         </div>
@@ -60,39 +60,39 @@
             <div class="collapse navbar-collapse" id="navbarMenu">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
+                  <a class="nav-link active" href="<?php bloginfo('template_directory');?>/index.php">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Business</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="category.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel</a>
+                  <a class="nav-link dropdown-toggle" href="category.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="category.html">Asia</a>
-                    <a class="dropdown-item" href="category.html">Europe</a>
-                    <a class="dropdown-item" href="category.html">Dubai</a>
-                    <a class="dropdown-item" href="category.html">Africa</a>
-                    <a class="dropdown-item" href="category.html">South America</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Asia</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Europe</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Dubai</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Africa</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">South America</a>
                   </div>
 
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="category.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                  <a class="nav-link dropdown-toggle" href="category.php" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown05">
-                    <a class="dropdown-item" href="category.html">Lifestyle</a>
-                    <a class="dropdown-item" href="category.html">Food</a>
-                    <a class="dropdown-item" href="category.html">Adventure</a>
-                    <a class="dropdown-item" href="category.html">Travel</a>
-                    <a class="dropdown-item" href="category.html">Business</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Lifestyle</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Food</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Adventure</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Travel</a>
+                    <a class="dropdown-item" href="<?php bloginfo('template_directory');?>/category.php">Business</a>
                   </div>
 
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="<?php bloginfo('template_directory');?>/about.php">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="<?php bloginfo('template_directory');?>/contact.php">Contact</a>
                 </li>
               </ul>
               
@@ -109,12 +109,12 @@
 
               <div class="owl-carousel owl-theme home-slider">
                 <div>
-                  <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_1.jpg'); ">
+                  <a href="blog-single.php" class="a-block d-flex align-items-center height-lg" style="background-image: url('<?php bloginfo('template_directory');?>/images/img_1.jpg'); ">
                     <div class="text half-to-full">
                       <span class="category mb-5">Food</span>
                       <div class="post-meta">
                         
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                         
@@ -125,12 +125,12 @@
                   </a>
                 </div>
                 <div>
-                  <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_2.jpg'); ">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="a-block d-flex align-items-center height-lg" style="background-image: url('<?php bloginfo('template_directory');?>/images/img_2.jpg'); ">
                     <div class="text half-to-full">
                       <span class="category mb-5">Travel</span>
                       <div class="post-meta">
                         
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                         
@@ -141,12 +141,12 @@
                   </a>
                 </div>
                 <div>
-                  <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_3.jpg'); ">
+                  <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('<?php bloginfo('template_directory');?>/images/img_3.jpg'); ">
                     <div class="text half-to-full">
                       <span class="category mb-5">Sports</span>
                       <div class="post-meta">
                         
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                         
@@ -178,11 +178,11 @@
             <div class="col-md-12 col-lg-8 main-content">
               <div class="row">
                 <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_5.jpg" alt="Image placeholder">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_5.jpg" alt="Image placeholder">
                     <div class="blog-content-body">
                       <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
@@ -191,38 +191,11 @@
                   </a>
                 </div>
                 <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_6.jpg" alt="Image placeholder">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_6.jpg" alt="Image placeholder">
                     <div class="blog-content-body">
                       <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_7.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_8.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
@@ -232,11 +205,11 @@
                 </div>
 
                 <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_9.jpg" alt="Image placeholder">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_7.jpg" alt="Image placeholder">
                     <div class="blog-content-body">
                       <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
@@ -245,11 +218,11 @@
                   </a>
                 </div>
                 <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_10.jpg" alt="Image placeholder">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_8.jpg" alt="Image placeholder">
                     <div class="blog-content-body">
                       <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
@@ -259,11 +232,11 @@
                 </div>
 
                 <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_11.jpg" alt="Image placeholder">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_9.jpg" alt="Image placeholder">
                     <div class="blog-content-body">
                       <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
@@ -272,11 +245,38 @@
                   </a>
                 </div>
                 <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="images/img_12.jpg" alt="Image placeholder">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_10.jpg" alt="Image placeholder">
                     <div class="blog-content-body">
                       <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>How to Find the Video Games of Your Youth</h2>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-6">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_11.jpg" alt="Image placeholder">
+                    <div class="blog-content-body">
+                      <div class="post-meta">
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                      </div>
+                      <h2>How to Find the Video Games of Your Youth</h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="<?php bloginfo('template_directory');?>/blog-single.php" class="blog-entry element-animate" data-animate-effect="fadeIn">
+                    <img src="<?php bloginfo('template_directory');?>/images/img_12.jpg" alt="Image placeholder">
+                    <div class="blog-content-body">
+                      <div class="post-meta">
+                        <span class="author mr-2"><img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                         <span class="mr-2">March 15, 2018 </span> &bullet;
                         <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
@@ -323,7 +323,7 @@
               <!-- END sidebar-box -->
               <div class="sidebar-box">
                 <div class="bio text-center">
-                  <img src="images/person_1.jpg" alt="Image Placeholder" class="img-fluid">
+                  <img src="<?php bloginfo('template_directory');?>/images/person_1.jpg" alt="Image Placeholder" class="img-fluid">
                   <div class="bio-body">
                     <h2>David Craig</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
@@ -344,7 +344,7 @@
                   <ul>
                     <li>
                       <a href="">
-                        <img src="images/img_2.jpg" alt="Image placeholder" class="mr-4">
+                        <img src="<?php bloginfo('template_directory');?>/images/img_2.jpg" alt="Image placeholder" class="mr-4">
                         <div class="text">
                           <h4>How to Find the Video Games of Your Youth</h4>
                           <div class="post-meta">
@@ -355,7 +355,7 @@
                     </li>
                     <li>
                       <a href="">
-                        <img src="images/img_4.jpg" alt="Image placeholder" class="mr-4">
+                        <img src="<?php bloginfo('template_directory');?>/images/img_4.jpg" alt="Image placeholder" class="mr-4">
                         <div class="text">
                           <h4>How to Find the Video Games of Your Youth</h4>
                           <div class="post-meta">
@@ -366,7 +366,7 @@
                     </li>
                     <li>
                       <a href="">
-                        <img src="images/img_12.jpg" alt="Image placeholder" class="mr-4">
+                        <img src="<?php bloginfo('template_directory');?>/images/img_12.jpg" alt="Image placeholder" class="mr-4">
                         <div class="text">
                           <h4>How to Find the Video Games of Your Youth</h4>
                           <div class="post-meta">
@@ -422,7 +422,7 @@
             <div class="col-md-4">
               <h3>About Us</h3>
               <p class="mb-4">
-                <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid">
+                <img src="<?php bloginfo('template_directory');?>/images/img_1.jpg" alt="Image placeholder" class="img-fluid">
               </p>
 
               <p>Lorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum inventore reiciendis. <a href="#">Read More</a></p>
@@ -435,7 +435,7 @@
                     <ul>
                       <li>
                         <a href="">
-                          <img src="images/img_6.jpg" alt="Image placeholder" class="mr-4">
+                          <img src="<?php bloginfo('template_directory');?>/images/img_6.jpg" alt="Image placeholder" class="mr-4">
                           <div class="text">
                             <h4>How to Find the Video Games of Your Youth</h4>
                             <div class="post-meta">
@@ -447,7 +447,7 @@
                       </li>
                       <li>
                         <a href="">
-                          <img src="images/img_3.jpg" alt="Image placeholder" class="mr-4">
+                          <img src="<?php bloginfo('template_directory');?>/images/img_3.jpg" alt="Image placeholder" class="mr-4">
                           <div class="text">
                             <h4>How to Find the Video Games of Your Youth</h4>
                             <div class="post-meta">
@@ -459,7 +459,7 @@
                       </li>
                       <li>
                         <a href="">
-                          <img src="images/img_4.jpg" alt="Image placeholder" class="mr-4">
+                          <img src="<?php bloginfo('template_directory');?>/images/img_4.jpg" alt="Image placeholder" class="mr-4">
                           <div class="text">
                             <h4>How to Find the Video Games of Your Youth</h4>
                             <div class="post-meta">
@@ -520,15 +520,15 @@
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/jquery-3.2.1.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/jquery-migrate-3.0.0.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/popper.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/owl.carousel.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/jquery.waypoints.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/jquery.stellar.min.js"></script>
 
     
-    <script src="js/main.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/main.js"></script>
   </body>
 </html>
